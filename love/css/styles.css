@@ -237,10 +237,11 @@ form button:hover {
 
 
 
+
 .happy {
 	position:absolute;
-	left:41%;
-	top:49%;
+ width:206px;	left:50%;
+margin-left:-103px;	top:49%;
 	opacity: 1;
 	animation: happybirthdays 10s;
 	animation-delay: 0s;
@@ -280,9 +281,11 @@ form button:hover {
 	}
 }
 
+
+
 .button-style1 ,.button-style2{
 	position:absolute;
-	top:41%;
+	top:60%;
 	opacity:1;
 	z-index:100;
 }
@@ -397,4 +400,16 @@ a.lk2:hover {
 	background-color:rgba(255,255,255,0,2);
 	border:2px solid #BBB;
 	transition:all 0.8s;
+}
+
+
+.text {
+  color: #8b6a60;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+}
+.text h1 {
+  font-size: 1.4em;
 }
