@@ -292,11 +292,15 @@ margin-top:60px;	opacity: 1;
 }
 .button-style1 {
 	position:absolute;
-	left:20%;	animation:btn1 15s;
+	left:20%;
+margin-left:-50px;
+	animation:btn1 15s;
 }
 .button-style2 {
 	position:absolute;
-	right:20%;	animation:btn2 15s;
+	right:20%;
+margin-right:-50px;
+	animation:btn2 15s;
 }
 @keyframes btn1 {
 	0% {
