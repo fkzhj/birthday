@@ -1,0 +1,76 @@
+body{margin:0;padding:0;background:#ffe;font-size:12px;}#mainDiv{width:100%;height:100%}#loveHeart{position:absolute;      top:500px; ;     left:50%;     margin-left:-335px;  width:670px;height:625px}#garden{width:100%;height:100%}#elapseClock{text-align:right;font-size:18px;margin-top:10px;margin-bottom:10px}#words{font-family:"sans-serif";width:500px;font-size:24px;color:#666}#messages{display:none}#elapseClock .digit{font-family:"digit";font-size:36px}#loveu{padding:5px;font-size:22px;margin-top:80px;margin-right:120px;text-align:right;display:none}#loveu .signature{margin-top:10px;font-size:20px;font-style:italic}#clickSound{display:none}
+
+#code1{float:left;top:10px; width:700px;height:400px;color:#333;font-family:"Consolas","Monaco","Bitstream Vera Sans Mono","Courier New","sans-serif";line-height:1.5;font-size:18px}
+
+#code1 .string{color:#2a36ff}
+#code1 .keyword{color:#7f0055;font-weight:bold}
+#code1 .placeholder{margin-left:15px}#code .space{margin-left:7px}
+#code1 .comments{color:#3f7f5f}#copyright{margin-top:10px;text-align:center;width:100%;color:#666}
+#errorMsg{width:100%;text-align:center;font-size:24px;position:absolute;top:100px;left:0}
+#copyright a{color:#666}
+
+fkzhj{
+
+
+font-family: Microsoft YaHei;
+	font-size: 30px;
+	text-shadow: 1px;
+	font-color: #000;}
+.ly-box01 {
+		margin-bottom:-800px;
+		width:80%;
+		height:550px;
+		border-radius: 25px;
+		background-color:rgba(255,255,255,0.5);
+		position: absolute;
+		left: 10%;
+		bottom: 50%;	
+	animation:box_to_point 2.5s 0
+}
+
+@keyframes box_to_point{
+	0% {
+		margin-bottom:50%;
+		width:50px;
+		height:50px;
+		border-radius: 25px;
+		position: absolute;
+		left: 48%;
+		bottom: 50%;
+		}
+	100% {
+		margin-bottom:-800px;
+		width:80%;
+		height:550px;
+		border-radius: 25px;
+		background-color:rgba(255,255,255,0.5);
+		position: absolute;
+		left: 10%;
+		bottom: 50%;
+	}
+
+	}
+
+.ly-txt01 {
+	position:absolute;
+	width: 70%;
+	left:15%;
+	top:850px;
+}
+
+.ly-txt13 {
+	font-family: Microsoft YaHei;
+	font-size: 30px;
+	text-shadow: 1px;
+	font-color: #000;
+	position: absolute;
+	width: 70%;
+	left:15%;
+	top:800px;
+	opacity: 0;
+	transition: all 0.5s;
+}
+.active .ly-txt13 {
+	opacity: 1;
+	transition-delay: 6s;
+}
