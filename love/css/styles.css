@@ -294,7 +294,7 @@ margin-top:60px;	opacity: 1;
 	position:absolute;
 	left:20%;
 
-margin-left:-50px;	animation:btn1 15s;
+margin-left:-100px;	animation:btn1 15s;
 }
 .button-style2 {
 	position:absolute;
@@ -305,11 +305,11 @@ margin-right:-50px;
 @keyframes btn1 {
 	0% {
 		opacity:0;
-		left:50%;
+		left:40%;
 	}
 	70% {
 		opacity:0;
-		left:50%;
+		left:40%;
 	}
 	100% {
 		opacity:1;
@@ -319,11 +319,11 @@ margin-right:-50px;
 @-webkit-keyframes btn1 {
 	0% {
 		opacity:0;
-		left:50%;
+		left:40%;
 	}
 	70% {
 		opacity:0;
-		left:50%;
+		left:40%;
 	}
 	100% {
 		opacity:1;
@@ -333,25 +333,25 @@ margin-right:-50px;
 @keyframes btn2 {
 	0% {
 		opacity:0;
-		right:50%;
+		right:40%;
 	}
 	70% {
 		opacity:0;
-		right:50%;
+		right:40%;
 	}
 	100% {
 		opacity:1;
-		right:80%;
+		right:20%;
 	}
 }
 @-webkit-keyframes btn2 {
 	0% {
 		opacity:0;
-		right:50%;
+		right:40%;
 	}
 	70% {
 		opacity:0;
-		right:50%;
+		right:40%;
 	}
 	100% {
 		opacity:1;
@@ -367,12 +367,12 @@ margin-right:-50px;
 	transition:all 0.5s;
 }
 .link1,.link2 {
-	width:100px;
+	width:120px;
 	height:55px;
 	border:2px solid #fff;
 	-webkit-border:1px solid #fff;
 	border-radius:30px;
-	font-size: 20px;
+	font-size: 23px;
 	text-align:center;
 	background: #ee9ca7;
 	transition:all 0.8s;
