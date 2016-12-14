@@ -244,7 +244,7 @@ form button:hover {
  width:206px;	left:50%;
 margin-left:-103px;	top:49%;
 
-margin-top:50px;	opacity: 1;
+margin-top:60px;	opacity: 1;
 	animation: happybirthdays 10s;
 	animation-delay: 0s;
 }
@@ -293,21 +293,23 @@ margin-top:50px;	opacity: 1;
 .button-style1 {
 	position:absolute;
 	left:20%;
-	animation:btn1 15s;
+
+margin-left:-50px;	animation:btn1 15s;
 }
 .button-style2 {
 	position:absolute;
-	left:68%;
+	right:20%;
+margin-right:-50px;
 	animation:btn2 15s;
 }
 @keyframes btn1 {
 	0% {
 		opacity:0;
-		left:43.5%;
+		left:50%;
 	}
 	70% {
 		opacity:0;
-		left:43.5%;
+		left:50%;
 	}
 	100% {
 		opacity:1;
@@ -317,11 +319,11 @@ margin-top:50px;	opacity: 1;
 @-webkit-keyframes btn1 {
 	0% {
 		opacity:0;
-		left:43.5%;
+		left:50%;
 	}
 	70% {
 		opacity:0;
-		left:43.5%;
+		left:50%;
 	}
 	100% {
 		opacity:1;
@@ -331,31 +333,33 @@ margin-top:50px;	opacity: 1;
 @keyframes btn2 {
 	0% {
 		opacity:0;
-		left:43.5%;
+		right:50%;
 	}
 	70% {
 		opacity:0;
-		left:43.5%;
+		right:50%;
 	}
 	100% {
 		opacity:1;
-		left:68%;
+		right:80%;
 	}
 }
 @-webkit-keyframes btn2 {
 	0% {
 		opacity:0;
-		left:43.5%;
+		right:50%;
 	}
 	70% {
 		opacity:0;
-		left:43.5%;
+		right:50%;
 	}
 	100% {
 		opacity:1;
-		left:68%;
+		right:20%;
 	}
 }
+
+
 .lk1,.lk2 {
 	text-decoration:none;
 	font-family: Microsoft YaHei;
@@ -363,12 +367,12 @@ margin-top:50px;	opacity: 1;
 	transition:all 0.5s;
 }
 .link1,.link2 {
-	width:170px;
-	height:60px;
+	width:100px;
+	height:55px;
 	border:2px solid #fff;
 	-webkit-border:1px solid #fff;
 	border-radius:30px;
-	font-size: 23px;
+	font-size: 20px;
 	text-align:center;
 	background: #ee9ca7;
 	transition:all 0.8s;
